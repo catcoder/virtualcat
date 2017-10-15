@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['namespace' => 'Desktop'], function() {
+    Route::get('/', 'MainController@goDesktop');
 });
+
