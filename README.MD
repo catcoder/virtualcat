@@ -8,5 +8,9 @@
 
 本项目为模拟MacOS样式的Web项目。
 
-服务端使用Laravel5.5
-前端使用Vue2
+库版本:
+----
+php     >= 7.0.0
+Laravel >= 5.5.0
+Vue     >= 2.5.2
+axios   >= 0.16.2
