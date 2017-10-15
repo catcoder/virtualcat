@@ -14,3 +14,7 @@
 - Laravel >= 5.5.0
 - Vue     >= 2.5.2
 - axios   >= 0.16.2
+
+---
+注:可以使用`php artisan gp desc?`来快速提交代码到仓库,这里我配置了两个仓库,
+的github和coding.

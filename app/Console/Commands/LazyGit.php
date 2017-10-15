@@ -44,8 +44,8 @@ class LazyGit extends Command
             $desc .= ' ' . date('Y-m-d H:i:s');
         }
         //执行git命令
-        shell_exec('git ad .');
+        shell_exec('git add -A');
         shell_exec('git commit -m \''.$desc.'\'');
-        shell_exec('git p');
+        shell_exec('git push all --all');
     }
 }
